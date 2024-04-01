@@ -1,0 +1,7 @@
+#colors{
+    background-color: #302727;
+    background-color: #302727;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}

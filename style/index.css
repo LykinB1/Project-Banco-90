@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+
+}
+/*Left side header*/
+#leftheader{
+    display: flex;
+    align-items: center;
+    background-color: #e60000;
+    height: 120px;
+    gap: 100px;
+    width: 70%;
+}
+
+#logo{
+    margin-left: 40px;
+}
+
+#logo img{
+    width: 70px;
+}
+
+#menu{
+
+}
+
+#menu a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+/*Right side header*/
+#rightheader{
+    display: flex;
+    height: 120px;
+    background-color: #e60000;
+    justify-content: right;
+    width: 30%;
+    align-items: center;
+}
+
+#rightheader input{
+    width: 150px;
+    height: 70px;
+    margin-right: 50px;
+    border-color:  white;
+    border-radius: 5px;
+    color: white;
+    background-color: #e60000;
+    
+}
+
+/*First part / banner*/
+
+
+#bannergroup{
+    display: flex;
+    width: 100%;
+    height: 700px;;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#presentation{
+    width: 630px;
+    height: 220px;
+    margin-top: 140px;
+    background-color: #f2871bad;    
+}
+#presentation h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#presentation p{
+    padding-left: 25px;
+}
+
+#presentation button{
+    width: 180px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid #f2861b;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/*Second part*/
+#paymenttitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#paymentsgroup{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 330px;
+    gap: 140px;
+    margin-top: 35px;
+
+}
+
+.payments{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: solid 1px black;
+    align-items: center;
+    height: 240px;
+}
+
+.payments img{
+    margin-top: 40px;
+    width: 90px;
+}
+
+#advertising{
+    background-color: #302727;
+    width: 50%;
+}
+
+#advertisingtext{
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
