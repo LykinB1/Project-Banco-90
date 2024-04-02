@@ -91,8 +91,9 @@ header{
     color: white;
 }
 
-/*Second part*/
+/*Second part / payment forms*/
 #paymenttitle{
+    font-size: 20px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -124,12 +125,138 @@ header{
 }
 
 #advertising{
+    display: flex;
     background-color: #302727;
-    width: 50%;
+    width: 100%;
+    height: 350px;
 }
 
 #advertisingtext{
     color: white;
     padding-top: 30px;
     padding-left: 20px;
+    width: 60%;
+    height: 350px;
+}
+
+#advertisingbanner{
+    width: 40%;
+    height: 350px;
+}
+
+#advertisingbanner img{
+    width: 754px;
+    height: 350px;
+}
+/*Third Part / client*/
+
+#client{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 350px;
+    gap: 60px;
+    padding-top: 50px;
+    background-color: #e0e0e0;
+}
+
+#clienttext{
+    font-size: 22px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    gap: 50px;
+    background-color: #e0e0e0;
+}
+
+.clientimgs{
+    display: flex;
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+
+#card1{
+    background-image: url(../images/cartaoUm.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+#card2{
+    background-image: url(../images/cartaoDois.jpg);
+    background-size: cover;
+    background-position-y: 720px ;
+}
+#card3{
+    background-image: url(../images/cartaoTres.jpg);
+    background-size: cover;
+    background-position: 0px;
+}
+
+
+#service{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background-color: #e0e0e0;
+}
+
+#service{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+#tableservice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1150px;
+    height: 380px;
+    border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(165, 165, 165);
+}
+#tableservice h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#tableservice table{
+    width: 1050px;
+    height: 240px;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 7px;
+}
+
+th{
+    background-color: #ba2d2d;
+    color: white;
+}
+
+td:hover{
+    background-color: #cccccc;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #ce0404;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
 }
